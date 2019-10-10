@@ -1,0 +1,1 @@
+|| prev->next == NULL
