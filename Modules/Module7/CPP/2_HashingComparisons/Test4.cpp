@@ -12,10 +12,10 @@ using namespace std;
 int hashFunction(string key, int size) {
     int hash = 0;
     for(int i = 0; i < key.length(); i++) {
-        //hash = hash + key[i];
+        hash = hash + key[i];
         //hash = (17 * hash) + key[i];
         //hash = (31 * hash) + key[i];
-        hash = (19 * hash) + key[i];
+        //hash = (19 * hash) + key[i];
     }
     return hash % size;
 }
