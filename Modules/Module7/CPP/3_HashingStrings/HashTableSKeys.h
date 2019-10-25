@@ -86,11 +86,11 @@ class HashTable {
         string get(string key) {
             int hashValue = hashFunction(key);                          //Calculates the hash value
             if(map[hashValue] != NULL) {
-                return map[hashValue]->getValue();                      //Return the value of the KVP
-            }
-            else {
-                __throw_invalid_argument("KVP not found");              //KVP not found
-            }
+				if(map[hashValue]->getKey().compare(key) == 0) {
+                	return map[hashValue]->getValue();                  //Return the value of the KVP
+            	}
+        	}
+        	__throw_invalid_argument("KVP not found");              	//KVP not found
         }
 
         //Removes a KVP, if it exists
@@ -98,12 +98,12 @@ class HashTable {
         bool remove(string key) {
             int hashValue = hashFunction(key);                          //Calculates the hash value
             if(map[hashValue] != NULL) {
-                if(map[hashValue]->getKey().compare(key) == 0) {
-                    delete map[hashValue];                                  //Delete the KVP
-                    map[hashValue] = NULL;                                  //Set the array position to NULL
-                    return true;
-                }
+            	if(map[hashValue]->getKey().compare(key) == 0) {
+                	delete map[hashValue];                              //Delete the KVP
+                	map[hashValue] = NULL;                              //Set the array position to NULL
+                	return true;
+            	}
             }
-            return false;                                           //KVP not there; Nothing to delete
+            return false;                                           	//KVP not there; Nothing to delete
         }
 };

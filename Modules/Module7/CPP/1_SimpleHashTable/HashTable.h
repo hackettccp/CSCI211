@@ -75,11 +75,11 @@ class HashTable {
         string get(int key) {
             int hashValue = key % SIZE;                                 //Calculates the hash value
             if(map[hashValue] != NULL) {
-                return map[hashValue]->getValue();                      //Return the value of the KVP
-            }
-            else {
-                __throw_invalid_argument("KVP not found");              //KVP not found
-            }
+				if(map[hashValue]->getKey() == key) {
+                	return map[hashValue]->getValue();                  //Return the value of the KVP
+            	}
+        	}
+        	__throw_invalid_argument("KVP not found");              	//KVP not found
         }
 
         //Removes a KVP, if it exists
@@ -87,12 +87,12 @@ class HashTable {
         bool remove(int key) {
             int hashValue = key % SIZE;                                 //Calculates the hash value
             if(map[hashValue] != NULL) {
-                delete map[hashValue];                                  //Delete the KVP
-                map[hashValue] = NULL;                                  //Set the array position to NULL
-                return true;
+            	if(map[hashValue]->getKey() == key) {
+                	delete map[hashValue];                              //Delete the KVP
+                	map[hashValue] = NULL;                              //Set the array position to NULL
+                	return true;
+            	}
             }
-            else {
-                return false;                                           //KVP not there; Nothing to delete
-            }
+            return false;                                           	//KVP not there; Nothing to delete
         }
 };
