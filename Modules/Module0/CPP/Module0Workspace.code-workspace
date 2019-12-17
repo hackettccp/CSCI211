@@ -1,7 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "SampleCode"
+			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"files.associations": {
+			"algorithm": "cpp",
+			"iostream": "cpp"
+		}
+	}
 }
