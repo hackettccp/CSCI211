@@ -9,25 +9,27 @@
 using namespace std;
 
 //Prototypes
-void printArray(double[], int);
+void printArray(int[], int);
 
 /**
  * Main Function.
  */
 int main() { 
-    const int LENGTH = 10;                                                                      //Used to easily change/resize the array for testing with longer or shorter arrays
-    double numbers[LENGTH];             
+    const int LENGTH = 20;                                                                      //Used to easily change/resize the array for testing with longer or shorter arrays
+    const int BUCKETS = 5;																		//Used to easily change the number of buckets to use
+	int numbers[LENGTH];             
 
     srand((int)time(0));                                                                        //Sets the seed to the current time
 
     //Fills the array with random numbers. (May include some duplicate numbers.)
     for(int i = 0; i < LENGTH; i++) {
-        numbers[i] = (double)rand() / (double)RAND_MAX;                                         //Puts a random number between 0.0 and 1.0 at each index of the array.
+    	int rNum = rand() % 50 + 1;                                                            //Puts a random number between 1 and 50 at each index of the array.
+    	numbers[i] = rNum;
     }
 
     printArray(numbers, LENGTH);                                                                //Prints the current values in the array (Function defined below)
     cout << "Sorting..." << endl;
-    bucketSort(numbers, LENGTH);                                                                //Passes the array and the length to the bucket sort function
+    bucketSort(numbers, LENGTH, BUCKETS);                                                       //Passes the array and the length to the bucket sort function
     cout << "Done." << endl;
     printArray(numbers, LENGTH);                                                                //Prints the current values in the sorted array
     
@@ -37,7 +39,7 @@ int main() {
 /**
  * Simply prints the current values in the array.
  */
-void printArray(double a[], int length) {
+void printArray(int a[], int length) {
     cout << "Current values in the array: " << endl;
     for(int i = 0; i < length; i++) {
 	    cout << a[i] << " ";
