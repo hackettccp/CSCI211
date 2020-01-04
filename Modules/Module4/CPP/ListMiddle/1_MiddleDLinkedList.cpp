@@ -1,5 +1,5 @@
 /**
- * Demonstrates getting the size/length of a doubly linked list.
+ * Demonstrates getting the middle of a doubly linked list.
  */
 #include<iostream>
 

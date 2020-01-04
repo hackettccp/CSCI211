@@ -1,5 +1,5 @@
 /**
- * Demonstrates getting the size/length of a circular linked list.
+ * Demonstrates getting the middle of a circular linked list.
  */
 #include<iostream>
 
