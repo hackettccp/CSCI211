@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="240145f7-1b1c-46eb-ba8e-de7f514c4dae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Module10/CPP/Module10Workspace.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/../Module10/CPP/Module10Workspace.code-workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module3/CPP/DoublyLinkedList/tempCodeRunnerFile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/1_Size.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/2_SizeCLinkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/2_SizeDLinkedList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/3_MiddleLinkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/3_MiddleLinkedList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/3_SizeCLinkedList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/4_LinearSearch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListFunctions/4_LinearSearch.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListMiddle/1_MiddleSLinkedList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListMiddle/2_MiddleCLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module4/CPP/ListMiddle/2_MiddleCLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListMiddle/2_MiddleCLinkedList.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListMiddle/2_MiddleDLinkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListSorting/1_BubbleSort copy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListSorting/1_BubbleSort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListSorting/2_InsertionSort.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module4/CPP/ListSorting/tempCodeRunnerFile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/1_SimpleHashTable/HTDemo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/1_SimpleHashTable/HashTable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/2_HashingComparisons/ASCIIDecimal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/2_HashingComparisons/Test1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/2_HashingComparisons/Test2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/2_HashingComparisons/Test3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/2_HashingComparisons/Test4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/3_HashingStrings/HTDemo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/3_HashingStrings/HashTableSKeys.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/4_ClosedAddressing/Bucket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/4_ClosedAddressing/HTDemo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/4_ClosedAddressing/HashTableChaining.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/4_ClosedAddressing/KVP.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/5_OpenAddressing/HTDemo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/5_OpenAddressing/HashTable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/6_Resizing/HTDemo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CPP/6_Resizing/HashTable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Module7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/Module7/HashMapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/out/production/Module7/HashTableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/HashMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/HashTableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/dictionary_basics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/dictionary_copies_and_merging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/dictionary_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/dictionary_kvps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/dictionary_loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/1_BinaryTree/BinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/2_BinarySearchTree/BST.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/2_BinarySearchTree/BSTTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/2_BinarySearchTree/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/2_BinarySearchTree/Traversal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/3_N-aryTrees/NaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module8/CPP/Module8Workspace.code-workspace" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="815" />
+    <option name="height" value="870" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="240145f7-1b1c-46eb-ba8e-de7f514c4dae" name="Default Changelist" comment="" />
+      <created>1578162524910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578162524910</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="DB Browser" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
