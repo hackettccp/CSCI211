@@ -5,42 +5,9 @@
 #include<iostream>
 #include<vector>
 #include<queue>
+#include "Node.h"
 
 using namespace std;
-
-//Represents a node/vertex in an n-ary tree
-class Node {
-    private:
-        string value;                                   //Value stored in the node
-        vector<Node*> children;                         //A vector (or linked list or similar) for containing the child nodes
-    
-    public:
-        //Constructor
-        Node(string v) {
-            value = v;                                  //Sets the value
-        }
-
-        //Adds a child to the nodes vector of children
-        void addChild(string value) {
-            Node *t = new Node(value);
-            children.push_back(t);
-        }
-
-        //Returns the value of the node
-        string getValue() {
-            return value;
-        }
-
-        //Returns a child node, specified by index
-        Node* getChild(int index) {
-            return children[index];
-        }
-
-        //Returns the number of children
-        int getChildrenSize() {
-            return children.size();
-        }
-};
 
 //Performs an breadth-first traversal of the tree
 void breadthfirst(Node *n) {
@@ -79,21 +46,21 @@ void depthfirst(Node *n) {
 
 //Main Function.
 int main() {
-    Node *root = new Node("A");
-    root->addChild("B");
-    root->addChild("C");
-    root->addChild("D");
+    Node *root = new Node("A");                     //Root of the tree
+    root->addChild("B");                            //Root's 0th child
+    root->addChild("C");                            //Root's 1st child
+    root->addChild("D");                            //Root's 2nd child
 
-    root->getChild(0)->addChild("E");
-    root->getChild(0)->addChild("F");
-    root->getChild(0)->addChild("G");
-    root->getChild(0)->addChild("H");
+    root->getChild(0)->addChild("E");               //B's children
+    root->getChild(0)->addChild("F");               //
+    root->getChild(0)->addChild("G");               //
+    root->getChild(0)->addChild("H");               //
 
-    root->getChild(1)->addChild("I");
+    root->getChild(1)->addChild("I");               //C's child
 
-    root->getChild(2)->addChild("J");
-    root->getChild(2)->addChild("K");
-    root->getChild(2)->addChild("L");
+    root->getChild(2)->addChild("J");               //D's children
+    root->getChild(2)->addChild("K");               //
+    root->getChild(2)->addChild("L");               //
     
 
     cout << "Breadth First Traversal: " << endl;

@@ -40,13 +40,8 @@ int main() {
         cout << "16 is not in the BST" << endl;
     }
 
-
-
     cout << "The smallest value is " << bst.findMin() << endl;
     cout << "The largest value is " << bst.findMax() << endl;
-
-
-
 
     bst.remove(5);
     bst.remove(7);
